@@ -1,0 +1,14 @@
+{
+  "name": "beat-booker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\" \"npm run dev:admin\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:admin": "cd beatbooker-frontend && npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
